@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\Include\ResSound.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\Include\\ResSound.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_0_FEMALE        WAVE                    "Sound\\0_f.wav"
+IDR_WAV_0_MALE          WAVE                    "Sound\\0_m.wav"
+IDR_WAV_1_FEMALE        WAVE                    "Sound\\1_f.wav"
+IDR_WAV_1_MALE          WAVE                    "Sound\\1_m.wav"
+IDR_WAV_2_FEMALE        WAVE                    "Sound\\2_f.wav"
+IDR_WAV_2_MALE          WAVE                    "Sound\\2_m.wav"
+IDR_WAV_3_FEMALE        WAVE                    "Sound\\3_f.wav"
+IDR_WAV_3_MALE          WAVE                    "Sound\\3_m.wav"
+IDR_WAV_BOMB            WAVE                    "Sound\\bomb.wav"
+IDR_WAV_OUTCARD         WAVE                    "Sound\\outcard.wav"
+IDR_WAV_RUNAWAY         WAVE                    "Sound\\runaway.wav"
+IDR_WAV_START           WAVE                    "Sound\\start.wav"
+IDR_WAV_TIMEOUT         WAVE                    "Sound\\timeout.wav"
+IDR_WAV_WIN             WAVE                    "Sound\\win.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "Sound Resource Dynamic Link Library"
+            VALUE "FileVersion", "1.0.0.1 build 7600"
+            VALUE "InternalName", "ResSound"
+            VALUE "LegalCopyright", "Copyright (C) 2010, Shining"
+            VALUE "OriginalFilename", "ResSound.dll"
+            VALUE "ProductName", "DdzClient"
+            VALUE "ProductVersion", "1.0.0.1 build 7600"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

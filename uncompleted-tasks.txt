@@ -1,0 +1,7 @@
+TASKS:
+
+1. Shell Notification Icon
+
+2. Modeless DialogBox
+
+3. READY, PASS picture

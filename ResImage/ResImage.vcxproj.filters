@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="资源文件\GIF_Visual">
+      <UniqueIdentifier>{5c4db953-2e77-47ae-a5ed-5dad6651aac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ICON">
+      <UniqueIdentifier>{cdf71723-f80d-4bdb-8793-b145bf4195d4}</UniqueIdentifier>
+      <Extensions>*.icon</Extensions>
+    </Filter>
+    <Filter Include="资源文件\BMP">
+      <UniqueIdentifier>{d2e6e5c8-2400-444c-9aad-0a839adeb9bd}</UniqueIdentifier>
+      <Extensions>*.bmp</Extensions>
+    </Filter>
+    <Filter Include="资源文件\BMP_Head_16">
+      <UniqueIdentifier>{a5600f42-4c74-4866-9ba6-a28a8084a80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\BMP_Head_32">
+      <UniqueIdentifier>{00a43744-2efe-46ec-bd3b-162d1f748b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\BMP_Status_16">
+      <UniqueIdentifier>{a922b3b3-8982-4449-ab30-9b8689e97c83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\ResImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResImage.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visualize_75x125\female.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="Visualize_75x125\female1.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="Visualize_75x125\female2.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="Visualize_75x125\male.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="Visualize_75x125\male1.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="Visualize_75x125\male2.gif">
+      <Filter>资源文件\GIF_Visual</Filter>
+    </None>
+    <None Include="ICON_16x16\bomb.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\clock.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\delegate.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\disconnect.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\game.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\Home.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\lord.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\ready.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\room.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="ICON_16x16\server.ico">
+      <Filter>资源文件\ICON</Filter>
+    </None>
+    <None Include="GameTable_150x150\table.bmp">
+      <Filter>资源文件\BMP</Filter>
+    </None>
+    <None Include="GameTable_150x150\table_start.bmp">
+      <Filter>资源文件\BMP</Filter>
+    </None>
+    <None Include="UserHead_16x16\12-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\13-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\16-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\20-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\21-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\30-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\48-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\49-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\5-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\50-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\54-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\6-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\61-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\67-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\8-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_16x16\94-1.bmp">
+      <Filter>资源文件\BMP_Head_16</Filter>
+    </None>
+    <None Include="UserHead_32x32\12-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\13-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\16-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\20-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\21-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\30-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\48-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\49-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\5-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\50-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\54-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\6-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\61-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\67-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\8-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="UserHead_32x32\94-1.bmp">
+      <Filter>资源文件\BMP_Head_32</Filter>
+    </None>
+    <None Include="Status_BMP_16x16\free.bmp">
+      <Filter>资源文件\BMP_Status_16</Filter>
+    </None>
+    <None Include="Status_BMP_16x16\hand.bmp">
+      <Filter>资源文件\BMP_Status_16</Filter>
+    </None>
+    <None Include="Status_BMP_16x16\play.bmp">
+      <Filter>资源文件\BMP_Status_16</Filter>
+    </None>
+    <None Include="Status_BMP_16x16\sitdown.bmp">
+      <Filter>资源文件\BMP_Status_16</Filter>
+    </None>
+    <None Include="Status_BMP_16x16\watch.bmp">
+      <Filter>资源文件\BMP_Status_16</Filter>
+    </None>
+  </ItemGroup>
+</Project>

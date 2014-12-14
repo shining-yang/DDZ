@@ -1,0 +1,249 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DDZCLIENT           ICON                    "DdzClient.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_DDZCLIENT MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      IDM_EXIT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A) ...",                  IDM_ABOUT
+    END
+END
+
+IDR_MENU_LOGWND_POPUP MENU 
+BEGIN
+    POPUP "LOGWND_POPUP"
+    BEGIN
+        MENUITEM "复制(&C)",                      IDM_LOGWND_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "清空(&R)",                      IDM_LOGWND_CLEAR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_DDZCLIENT ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 233, 64
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    ICON            IDI_DDZCLIENT,IDC_MYICON,14,9,18,18
+    LTEXT           "DdzClient 1.0 版",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2009, Shining",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,8,46,15,WS_GROUP
+END
+
+IDD_LOGON DIALOGEX 0, 0, 226, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "斗地主游戏登陆"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_LOGON_NAME,36,52,178,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_LOGON_USER_IMG,36,73,40,116,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_NOINTEGRALHEIGHT | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "男",IDC_LOGON_MALE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,147,81,24,10
+    DEFPUSHBUTTON   "确定",IDOK,167,107,48,14
+    CONTROL         "女",IDC_LOGON_FEMALE,"Button",BS_AUTORADIOBUTTON,185,81,24,10
+    GROUPBOX        "",IDC_STATIC,140,73,74,22
+    RTEXT           "昵称",IDC_STATIC,11,54,17,8
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,0,226,42
+    RTEXT           "性别",IDC_STATIC,112,82,17,8
+    RTEXT           "头像",IDC_STATIC,11,82,17,8
+    GROUPBOX        "",IDC_STATIC,0,41,225,60
+END
+
+IDD_SERVER_INFO DIALOGEX 0, 0, 252, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器信息"
+FONT 9, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_SERVER_NAME,65,25,100,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SERVER_IP,"SysIPAddress32",WS_TABSTOP,65,45,100,15
+    EDITTEXT        IDC_SERVER_PORT,65,65,100,15,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "确定",IDOK,194,8,50,14
+    PUSHBUTTON      "取消",IDCANCEL,194,25,50,14
+    RTEXT           "服务器名称:",IDC_STATIC,14,28,45,8
+    RTEXT           "IP:",IDC_STATIC,14,48,45,8
+    RTEXT           "端口:",IDC_STATIC,14,68,45,8
+    LTEXT           "请输入游戏服务器的基本信息",IDC_STATIC,14,10,105,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LOGON               BITMAP                  "Res\\logon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "斗地主客户端"
+            VALUE "FileVersion", "1.0.0.1 build 7600"
+            VALUE "InternalName", "DdzClient"
+            VALUE "LegalCopyright", "Copyright (C) 2010, Shining"
+            VALUE "OriginalFilename", "DdzClient.exe"
+            VALUE "ProductName", "DdzClient"
+            VALUE "ProductVersion", "1.0.0.1 build 7600"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 230
+    END
+
+    IDD_SERVER_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "斗地主"
+    IDC_DDZCLIENT           "DDZCLIENT"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

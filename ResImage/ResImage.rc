@@ -1,0 +1,176 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\Include\ResImage.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\Include\\ResImage.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_GAMER_VISUAL_F0     GIF                     "Visualize_75x125\\female.gif"
+IDR_GAMER_VISUAL_M0     GIF                     "Visualize_75x125\\male.gif"
+IDR_GAMER_VISUAL_F1     GIF                     "Visualize_75x125\\female1.gif"
+IDR_GAMER_VISUAL_M1     GIF                     "Visualize_75x125\\male1.gif"
+IDR_GAMER_VISUAL_F2     GIF                     "Visualize_75x125\\female2.gif"
+IDR_GAMER_VISUAL_M2     GIF                     "Visualize_75x125\\male2.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_SERVER         ICON                    "ICON_16x16\\server.ico"
+IDI_ICON_ROOM           ICON                    "ICON_16x16\\room.ico"
+IDI_ICON_HOME           ICON                    "ICON_16x16\\Home.ico"
+IDI_ICON_GAME           ICON                    "ICON_16x16\\game.ico"
+IDI_GAMER_READY         ICON                    "icon_16x16\\ready.ico"
+IDI_ICON_LORD           ICON                    "ICON_16x16\\lord.ico"
+IDI_ICON_BOMB           ICON                    "ICON_16x16\\bomb.ico"
+IDI_ICON_DELEGATED      ICON                    "ICON_16x16\\delegate.ico"
+IDI_ICON_DISCONNECT     ICON                    "ICON_16x16\\disconnect.ico"
+IDI_ICON_CLOCK          ICON                    "ICON_16x16\\clock.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GAME_TABLE          BITMAP                  "GameTable_150x150\\table.bmp"
+IDB_GAME_TABLE_START    BITMAP                  "GameTable_150x150\\table_start.bmp"
+IDB_STATE_IDLE          BITMAP                  "Status_BMP_16x16\\free.bmp"
+IDB_STATE_SIT           BITMAP                  "Status_BMP_16x16\\sitdown.bmp"
+IDB_STATE_READY         BITMAP                  "Status_BMP_16x16\\hand.bmp"
+IDB_STATE_PLAY          BITMAP                  "Status_BMP_16x16\\play.bmp"
+IDB_STATE_LOOKON        BITMAP                  "Status_BMP_16x16\\watch.bmp"
+IDB_BITMAP1             BITMAP                  "UserHead_16x16\\5-1.bmp"
+IDB_BITMAP2             BITMAP                  "UserHead_16x16\\6-1.bmp"
+IDB_BITMAP3             BITMAP                  "UserHead_16x16\\8-1.bmp"
+IDB_BITMAP4             BITMAP                  "UserHead_16x16\\12-1.bmp"
+IDB_BITMAP5             BITMAP                  "UserHead_16x16\\13-1.bmp"
+IDB_BITMAP6             BITMAP                  "UserHead_16x16\\16-1.bmp"
+IDB_BITMAP7             BITMAP                  "UserHead_16x16\\20-1.bmp"
+IDB_BITMAP8             BITMAP                  "UserHead_16x16\\21-1.bmp"
+IDB_BITMAP9             BITMAP                  "UserHead_16x16\\30-1.bmp"
+IDB_BITMAP10            BITMAP                  "UserHead_16x16\\48-1.bmp"
+IDB_BITMAP11            BITMAP                  "UserHead_16x16\\49-1.bmp"
+IDB_BITMAP12            BITMAP                  "UserHead_16x16\\50-1.bmp"
+IDB_BITMAP13            BITMAP                  "UserHead_16x16\\54-1.bmp"
+IDB_BITMAP14            BITMAP                  "UserHead_16x16\\61-1.bmp"
+IDB_BITMAP15            BITMAP                  "UserHead_16x16\\67-1.bmp"
+IDB_BITMAP16            BITMAP                  "UserHead_16x16\\94-1.bmp"
+IDB_BITMAP17            BITMAP                  "UserHead_32x32\\5-1.bmp"
+IDB_BITMAP18            BITMAP                  "UserHead_32x32\\6-1.bmp"
+IDB_BITMAP19            BITMAP                  "UserHead_32x32\\8-1.bmp"
+IDB_BITMAP20            BITMAP                  "UserHead_32x32\\12-1.bmp"
+IDB_BITMAP21            BITMAP                  "UserHead_32x32\\13-1.bmp"
+IDB_BITMAP22            BITMAP                  "UserHead_32x32\\16-1.bmp"
+IDB_BITMAP23            BITMAP                  "UserHead_32x32\\20-1.bmp"
+IDB_BITMAP24            BITMAP                  "UserHead_32x32\\21-1.bmp"
+IDB_BITMAP25            BITMAP                  "UserHead_32x32\\30-1.bmp"
+IDB_BITMAP26            BITMAP                  "UserHead_32x32\\48-1.bmp"
+IDB_BITMAP27            BITMAP                  "UserHead_32x32\\49-1.bmp"
+IDB_BITMAP28            BITMAP                  "UserHead_32x32\\50-1.bmp"
+IDB_BITMAP29            BITMAP                  "UserHead_32x32\\54-1.bmp"
+IDB_BITMAP30            BITMAP                  "UserHead_32x32\\61-1.bmp"
+IDB_BITMAP31            BITMAP                  "UserHead_32x32\\67-1.bmp"
+IDB_BITMAP32            BITMAP                  "UserHead_32x32\\94-1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "Image Resource Dynamic Link Library"
+            VALUE "FileVersion", "1.0.0.1 build 7600"
+            VALUE "InternalName", "ResImage"
+            VALUE "LegalCopyright", "Copyright (C) 2010, Shining"
+            VALUE "OriginalFilename", "ResImage.dll"
+            VALUE "ProductName", "DdzClient"
+            VALUE "ProductVersion", "1.0.0.1 build 7600"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

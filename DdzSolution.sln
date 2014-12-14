@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DdzServer", "DdzServer\DdzServer.vcxproj", "{8E909864-29AB-4102-A852-965748C6E661}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DdzClient", "DdzClient\DdzClient.vcxproj", "{80B65A6C-A2D6-4C4D-BE50-EED82DBF7202}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57995B12-94EA-4B3E-A160-7A9DF7B5CB99} = {57995B12-94EA-4B3E-A160-7A9DF7B5CB99}
+		{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464} = {898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}
+		{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7} = {1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PokerLib", "PokerLib\PokerLib.vcxproj", "{66963722-82FF-4C69-927B-3A5BB8068A33}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResImage", "ResImage\ResImage.vcxproj", "{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResPoker", "ResPoker\ResPoker.vcxproj", "{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResSound", "ResSound\ResSound.vcxproj", "{57995B12-94EA-4B3E-A160-7A9DF7B5CB99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CWebPage", "CWebPage\CWebPage.vcxproj", "{0AD08FCE-CBA2-4BD4-AA59-0E6505F883D1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupServer", "SetupServer\SetupServer.vdproj", "{F3A3E566-C1D7-48D9-BEDA-DBA6B9407FF1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupClient", "SetupClient\SetupClient.vdproj", "{9F060533-6F37-4350-A75B-3D663C3F05B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{F966A327-CCC2-4F2F-9A71-4D2C742ADF73}"
+	ProjectSection(SolutionItems) = preProject
+		Bug-List.xls = Bug-List.xls
+		DdzSolution-1.1-src-101014.rar = DdzSolution-1.1-src-101014.rar
+		history.txt = history.txt
+		known-issues.txt = known-issues.txt
+		Readme.txt = Readme.txt
+		uncompleted-tasks.txt = uncompleted-tasks.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ysn.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CWebPage\\CWebPage.vcxproj
+		SccProjectName1 = CWebPage
+		SccLocalPath1 = CWebPage
+		SccProjectUniqueName2 = DdzClient\\DdzClient.vcxproj
+		SccProjectName2 = DdzClient
+		SccLocalPath2 = DdzClient
+		SccProjectUniqueName3 = DdzServer\\DdzServer.vcxproj
+		SccProjectName3 = DdzServer
+		SccLocalPath3 = DdzServer
+		SccProjectUniqueName4 = PokerLib\\PokerLib.vcxproj
+		SccProjectName4 = PokerLib
+		SccLocalPath4 = PokerLib
+		SccProjectUniqueName5 = ResImage\\ResImage.vcxproj
+		SccProjectName5 = ResImage
+		SccLocalPath5 = ResImage
+		SccProjectUniqueName6 = ResPoker\\ResPoker.vcxproj
+		SccProjectName6 = ResPoker
+		SccLocalPath6 = ResPoker
+		SccProjectUniqueName7 = ResSound\\ResSound.vcxproj
+		SccProjectName7 = ResSound
+		SccLocalPath7 = ResSound
+		SccProjectUniqueName8 = SetupClient\\SetupClient.vdproj
+		SccProjectName8 = SetupClient
+		SccLocalPath8 = SetupClient
+		SccProjectUniqueName9 = SetupServer\\SetupServer.vdproj
+		SccProjectName9 = SetupServer
+		SccLocalPath9 = SetupServer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E909864-29AB-4102-A852-965748C6E661}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E909864-29AB-4102-A852-965748C6E661}.Debug|Win32.Build.0 = Debug|Win32
+		{8E909864-29AB-4102-A852-965748C6E661}.Release|Win32.ActiveCfg = Release|Win32
+		{8E909864-29AB-4102-A852-965748C6E661}.Release|Win32.Build.0 = Release|Win32
+		{80B65A6C-A2D6-4C4D-BE50-EED82DBF7202}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80B65A6C-A2D6-4C4D-BE50-EED82DBF7202}.Debug|Win32.Build.0 = Debug|Win32
+		{80B65A6C-A2D6-4C4D-BE50-EED82DBF7202}.Release|Win32.ActiveCfg = Release|Win32
+		{80B65A6C-A2D6-4C4D-BE50-EED82DBF7202}.Release|Win32.Build.0 = Release|Win32
+		{66963722-82FF-4C69-927B-3A5BB8068A33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66963722-82FF-4C69-927B-3A5BB8068A33}.Debug|Win32.Build.0 = Debug|Win32
+		{66963722-82FF-4C69-927B-3A5BB8068A33}.Release|Win32.ActiveCfg = Release|Win32
+		{66963722-82FF-4C69-927B-3A5BB8068A33}.Release|Win32.Build.0 = Release|Win32
+		{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}.Debug|Win32.Build.0 = Debug|Win32
+		{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}.Release|Win32.ActiveCfg = Release|Win32
+		{1A7B82C6-71F5-46FC-B19E-6F89DE0008D7}.Release|Win32.Build.0 = Release|Win32
+		{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}.Debug|Win32.ActiveCfg = Debug|Win32
+		{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}.Debug|Win32.Build.0 = Debug|Win32
+		{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}.Release|Win32.ActiveCfg = Release|Win32
+		{898D0EA1-1DAC-4F5F-AD28-193CEBCA7464}.Release|Win32.Build.0 = Release|Win32
+		{57995B12-94EA-4B3E-A160-7A9DF7B5CB99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57995B12-94EA-4B3E-A160-7A9DF7B5CB99}.Debug|Win32.Build.0 = Debug|Win32
+		{57995B12-94EA-4B3E-A160-7A9DF7B5CB99}.Release|Win32.ActiveCfg = Release|Win32
+		{57995B12-94EA-4B3E-A160-7A9DF7B5CB99}.Release|Win32.Build.0 = Release|Win32
+		{0AD08FCE-CBA2-4BD4-AA59-0E6505F883D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AD08FCE-CBA2-4BD4-AA59-0E6505F883D1}.Debug|Win32.Build.0 = Debug|Win32
+		{0AD08FCE-CBA2-4BD4-AA59-0E6505F883D1}.Release|Win32.ActiveCfg = Release|Win32
+		{0AD08FCE-CBA2-4BD4-AA59-0E6505F883D1}.Release|Win32.Build.0 = Release|Win32
+		{F3A3E566-C1D7-48D9-BEDA-DBA6B9407FF1}.Debug|Win32.ActiveCfg = Debug
+		{F3A3E566-C1D7-48D9-BEDA-DBA6B9407FF1}.Release|Win32.ActiveCfg = Release
+		{9F060533-6F37-4350-A75B-3D663C3F05B8}.Debug|Win32.ActiveCfg = Debug
+		{9F060533-6F37-4350-A75B-3D663C3F05B8}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

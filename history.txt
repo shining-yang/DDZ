@@ -1,0 +1,3 @@
+[2009-06]    v1.0 	initial completion.
+
+[2010-05]    v1.1 	Added IP selection dialog for DdzServer at startup.
