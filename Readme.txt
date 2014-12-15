@@ -1,3 +1,17 @@
+Something to say...
+===================
+This project was first created and written during Mar.-June in 2009, when I was
+unemployed, just for fun. But with almost no updates later.
+Though it's developed on Visual Studio 2005 originally, it can easily be 
+auto-upgraded to Visual Studio 2008, 2010, 2013. Actually, the latest version,
+that is, the version uploaded to GitHub, is VS2013 formatted.
+Previously, this project was fallen into a rather long sleep on Visual Studio 
+Online. VSO is an excellent and powerful online collaborative platform. 
+But by comparison to github, I think the latter one is easier to share and
+collaborate. So I decide to host it on github now.
+Maybe in the future, I'd like to add some new features such as user registration,
+user records, etc. just for personal interests and fun.
+
 
 ¼ò½é
 
